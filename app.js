@@ -1,6 +1,6 @@
 const button = document.getElementById('button__not');
 
-button.addEventListener('click', () => {
+button.addEventListener('mouseover', () => {
     const widthWindow = window.innerWidth;
     const heightWindow = window.innerHeight;
 
