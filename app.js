@@ -12,7 +12,7 @@ button.addEventListener('click', () => {
     button.style.top = newPositionY + 'px';
 })
 
-button.addEventListener('mouseover', () => {
+button.addEventListener('touchstart', () => {
     const widthWindow = window.innerWidth;
     const heightWindow = window.innerHeight;
 
